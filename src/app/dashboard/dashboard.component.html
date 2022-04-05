@@ -1,0 +1,5 @@
+<h2>Deshboard</h2>
+
+<div *ngFor="let hero of heroes" routerLink="/heroes/{{hero.id}}">
+  <div>{{ hero.name }}</div>
+</div>
